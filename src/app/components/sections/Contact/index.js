@@ -49,7 +49,7 @@ function Contact() {
         </div>
       </div>
       <div className="flex justify-center items-center w-5 mx-auto pt-8">
-         <h1>helooo</h1>
+         <h1>bbbbbbbbbbbbbbb</h1>
       </div>
     </section>
   );

@@ -1,0 +1,17 @@
+.about_after::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background:white;
+    top: 20%;
+    left: -1%;
+    position: absolute;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.dark .about_after::before{
+    background:#302F4E;
+}

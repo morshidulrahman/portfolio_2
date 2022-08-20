@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif; 
+  color:#454360;
+}
+.dark body{
+  color:white;
+}
+.copyright{
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+
+@layer components {
+  .container{
+    @apply !max-w-[1160px] px-4 mx-auto
+  }
+  .inputwrapper{
+    @apply w-full bg-white px-5 py-4 rounded-xl shadow-lg mb-5 outline-none
+  }
+  .input_box{
+    @apply md:w-[45%] bg-white px-5 py-4 rounded-xl shadow-lg w-full mb-10 md:mb-0
+  }
+  .active{
+    @apply !text-secondary-color
+  }
+}
+section{
+  padding:80px 0px; 
+}
+.bgimage{
+  background-image: url("https://bolby-react.vercel.app/images/map.svg");
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.section_before::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url(https://bolby-react.vercel.app/images/dots-bg.svg);
+  top: -14px;
+  left: -16px;
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.dark .section_before::before{
+  background-image:url("https://bolby-react.vercel.app/images/dots-bg.svg");
+}

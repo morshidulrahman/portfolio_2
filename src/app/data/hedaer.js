@@ -1,0 +1,34 @@
+
+export const  HEADER= {
+    logo:"morshidul",
+    menus:[
+        {
+           title:"home",
+            to:"home",
+        },
+        {
+             title:"about",
+            to:"about"
+        },
+        {
+            title:"service",
+            to:"services"
+        },
+        {
+            title:'Experience',
+            to:"resume"
+        },
+        {
+            title:"work",
+            to:"portfolio"
+        },
+        {
+            title:"blog",
+            to:"blogs"
+        },
+        {
+            title:"contact",
+            to:"contact"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+.swiper-pagination-bullet{
+    width: 8px !important;
+    height: 5px !important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    -ms-transition: all .1s;
+    -o-transition: all .1s;
+}
+.swiper-pagination-bullet-active{
+    width: 18px!important;
+    background-color: #FF4C60 !important;
+    opacity: 1;
+}

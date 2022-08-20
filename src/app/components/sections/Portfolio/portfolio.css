@@ -1,0 +1,12 @@
+ 
+.category:hover .category_type,.category:hover .category_title{
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.category:hover .hoverIcon, .category:hover .hoverbg{
+    opacity: 1;
+}

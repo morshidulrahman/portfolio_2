@@ -3,7 +3,7 @@ import {  FaFacebook } from 'react-icons/fa';
 import {  AiFillGithub,AiFillLinkedin,AiOutlineTwitter} from 'react-icons/ai';
 export const HomeData={
      name:"Morshidul Rahman",
-     image:"/assets/avatar-1.svg",
+     image:"/assets/me.jpg",
      typeWriter:["Fornt End Developer", "Web Developer","React Developer"],
     socialIcons:[
         {

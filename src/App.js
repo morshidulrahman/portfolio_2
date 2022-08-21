@@ -5,10 +5,10 @@ function App() {
   return (
       <div className="bg-[#F9F9FF] dark:bg-[#353353]">
             <Header/>
-            <Element name="home" className="element h-screen">
+            <Element name="home" className="element md:h-screen h-auto">
              <Home/>
             </Element>
-            <Element name="about" className="element h-screen">
+            <Element name="about" className="element md:h-screen h-auto">
             <About/>
             </Element>
             <Element name="services" className="element">
@@ -20,16 +20,16 @@ function App() {
             <Element name="portfolio" className="element">
             <Portfolio/>
             </Element>
-            {/* <div name="home" className="element">
+            <div name="home" className="element">
             <Pricing/>
             </div>
             <div name="home" className="element">
             <Testimonial/>
-            </div> */}
-            <Element name="blogs" className="element">
+            </div>
+            <Element name="blogs" className="element md:h-screen h-auto">
             <Blog/>
             </Element>
-            <Element name="contact" className="element h-screen">
+            <Element name="contact" className="element ">
             <Contact/> 
             </Element>
       </div>

@@ -15,7 +15,7 @@ function Home() {
         <img
           src={image}
           alt={name}
-          className="w-40 h-40 overflow-hidden mb-6"
+          className="w-40 h-40 overflow-hidden mb-6 rounded-full object-cover"
         />
         <h1 className="font-bold mb-4 text-3xl ">{name}</h1>
         <p className="mb-2 text-xl">

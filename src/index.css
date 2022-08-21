@@ -9,6 +9,12 @@ body {
   font-family: 'Rubik', sans-serif; 
   color:#454360;
 }
+.logo_active{
+  color: #454360;
+}
+.dark .logo_active{
+  color: white;
+}
 .dark body{
   color:white;
 }

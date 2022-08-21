@@ -41,7 +41,7 @@ function Contact() {
             className="inputwrapper"
           />
           <textarea
-            className="inputwrapper mb-10"
+            className="inputwrapper mb-20"
             cols="20"
             rows="5"
             placeholder="Message"
@@ -51,8 +51,8 @@ function Contact() {
       </div>
      
     </section>
-     <div className="w-full border-t dark:border-t-[#838181] border-t-[#ddd]">
-     <p className="flex justify-center items-center w-60 mx-auto py-8 ">
+     <div className="w-full border-t dark:border-t-[#838181] border-t-[#ddd] mt-10 dark:bg-bg-dark">
+     <p className="flex justify-center items-center w-60 mx-auto py-8">
        &copy; 2022 All Rights Reserved
      </p>
    </div>

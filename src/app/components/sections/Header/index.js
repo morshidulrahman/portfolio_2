@@ -21,7 +21,7 @@ function Header() {
     >
        
       <div className="container flex  flex-wrap md:flex-nowrap justify-between items-center">
-        <span
+        <Link
           className="text-4xl font-bold capitalize"
           to="home"
           spy={true}
@@ -30,7 +30,7 @@ function Header() {
         >
           {logo}
           <span className="text-secondary-color text-5xl">.</span>
-        </span>
+        </Link>
 
         {/* =====dark mode=== */}
        

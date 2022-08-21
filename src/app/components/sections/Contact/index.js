@@ -3,6 +3,7 @@ import { SectionTitle, Button } from "../../elements/index";
 
 function Contact() {
   return (
+    <>
     <section className="container">
       <SectionTitle title="Get in Touch" />
       <div className="mt-16 flex justify-between md:gap-5 md:flex-row flex-col gap-10">
@@ -48,10 +49,14 @@ function Contact() {
           <Button title="Send Message" />
         </div>
       </div>
-      <div className="flex justify-center items-center w-5 mx-auto pt-8">
-         <p>&copy; </p>
-      </div>
+     
     </section>
+     <div className="w-full border-t dark:border-t-[#838181] border-t-[#ddd]">
+     <p className="flex justify-center items-center w-60 mx-auto py-8 ">
+       &copy; 2022 All Rights Reserved
+     </p>
+   </div>
+   </>
   );
 }
 

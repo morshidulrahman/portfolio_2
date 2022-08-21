@@ -3,7 +3,7 @@ import { Header,Home,About,Blog,Contact,Testimonial,Portfolio,Pricing,Resume,Ser
 import {Element} from 'react-scroll'
 function App() {
   return (
-      <div className="bg-[#F9F9FF] dark:bg-[#353353]">
+      <div className="bg-[#F9F9FF] dark:bg-[#353353] relative">
             <Header/>
             <Element name="home" className="element md:h-screen h-auto">
              <Home/>
@@ -26,10 +26,10 @@ function App() {
             <div name="home" className="element">
             <Testimonial/>
             </div>
-            <Element name="blogs" className="element md:h-screen h-auto">
+            <Element name="blogs" className="element">
             <Blog/>
             </Element>
-            <Element name="contact" className="element ">
+            <Element name="contact" className="element">
             <Contact/> 
             </Element>
       </div>

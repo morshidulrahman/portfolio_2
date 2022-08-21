@@ -50,7 +50,7 @@ export const PORTFOLIO={
             title:"Ecommerce website",
             icon:<BsImage/>,
             type:"Graphic Design",
-            link:"https://imaginative-belekoy-8d115c.netlify.app/"
+            link:"https://enchanting-taffy-306f45.netlify.app/"
         }
     ]
 }

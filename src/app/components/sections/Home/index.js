@@ -1,16 +1,15 @@
 import React from "react";
-import TypeWriter from "../../elements/TypeWriter";
 import { HomeData } from "../../../data/Home";
-import Button from "../../elements/Button";
 import { CgMouse } from "react-icons/cg";
 import { Link } from "react-scroll";
+import {Homebg,Button,TypeWriter}  from "../../elements/index"
  
 function Home() {
   const { name, image, socialIcons, typeWriter } = HomeData;
 
   return (
-    <>
-      {/* <Homebg /> */}
+    <div className="relative">
+      <Homebg />
       <div className="text-[#353353] flex flex-col h-screen justify-center items-center w-full container relative dark:text-white">
         <img
           src={image}
@@ -36,7 +35,7 @@ function Home() {
         <Link spy={true} smooth={true} duration={500} to="contact">
           <Button title="Hire me" />
         </Link>
-        <div className="flex flex-col justify-center items-center absolute bottom-4 ">
+        <div className="flex flex-col justify-center items-center absolute bottom-8 ">
           <p className="mb-4 text-sm">scroll down</p>
           <Link
             to="about"
@@ -50,7 +49,7 @@ function Home() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

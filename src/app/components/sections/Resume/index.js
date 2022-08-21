@@ -6,7 +6,7 @@ import "./Resume.css"
 function Resume() {
    const {title,education,icon,experince,icons} = RESUME
   return (
-    <div className='container'>
+    <section className='container'>
       <div>
          <SectionTitle title={title}/>
       </div>
@@ -26,7 +26,7 @@ function Resume() {
         }
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

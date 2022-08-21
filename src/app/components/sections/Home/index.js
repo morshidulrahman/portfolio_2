@@ -4,7 +4,7 @@ import { HomeData } from "../../../data/Home";
 import Button from "../../elements/Button";
 import { CgMouse } from "react-icons/cg";
 import { Link } from "react-scroll";
-import Homebg from "../../elements/Homebg";
+ 
 function Home() {
   const { name, image, socialIcons, typeWriter } = HomeData;
 

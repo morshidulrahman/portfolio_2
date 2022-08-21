@@ -38,12 +38,4 @@ function App() {
 
 export default App;
 
-
-{/* <About/>
-<Services/>
-<Resume/>
-<Portfolio/>
-<Pricing/>
-<Testimonial/>
-<Blog/>
-<Contact/> */}
+ 

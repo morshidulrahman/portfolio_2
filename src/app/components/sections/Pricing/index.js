@@ -6,7 +6,7 @@ import {PricingCard} from "../../elements/index"
 function Pricing() {
    const{pricingData,title}=PRICINGDATA
   return (
-    <section id="pricing" className='container pt-40'>
+    <section id="pricing" className='container'>
       <div>
          <SectionTitle title={title}/>
       </div>

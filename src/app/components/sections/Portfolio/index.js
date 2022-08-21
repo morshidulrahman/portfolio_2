@@ -4,7 +4,7 @@ import {SectionTitle} from "../../elements/index"
 import "./portfolio.css"
 import{ ProjectType }from '../../elements/index'
 import {PortfolioCard} from "../../elements/index"
-
+import {Button} from "../../elements/index"
 const {title,types,items} =PORTFOLIO
 
 function Portfolio() {
@@ -42,7 +42,13 @@ function Portfolio() {
         <PortfolioCard
          menu={menu}
         />
-
+        <div className='flex justify-center items-center w-60 mx-auto pt-20'>
+           <a 
+           target="_blank"
+           href="https://github.com/morshidulrahman">
+             <Button title='visit my github'/>
+           </a>
+        </div>
     </section>
   )
 }

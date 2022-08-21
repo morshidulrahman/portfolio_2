@@ -36,12 +36,12 @@ function Header() {
        
         {/* ======Moblile menu====== */}
         <span className="text-4xl duration-300 md:hidden" onClick={handleclick}>
-          {opened ? <AiOutlineMenu /> : <AiOutlineClose />}
+          {!opened ? <AiOutlineMenu /> : <AiOutlineClose />}
         </span>
 
         {/* ===menubar=== */}
         <div
-          className={`w-full mt-4 md:mt-0 md:flex md:w-auto items-center ${ opened && "hidden"}`}
+          className={`w-full mt-4 md:mt-0 md:flex md:w-auto items-center ${ !opened ? "hidden" : " " }`}
         >
           <nav
             className={`flex flex-col md:flex-row justify-between md:space-x-8 pl-2 md:pl-0 `}

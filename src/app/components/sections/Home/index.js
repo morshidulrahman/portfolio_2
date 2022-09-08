@@ -2,13 +2,13 @@ import React from "react";
 import { HomeData } from "../../../data/Home";
 import { CgMouse } from "react-icons/cg";
 import { Link } from "react-scroll";
-import {Homebg,Button,TypeWriter}  from "../../elements/index"
- 
+import { Homebg, Button, TypeWriter } from "../../elements/index"
+
 function Home() {
   const { name, image, socialIcons, typeWriter } = HomeData;
 
   return (
-    <div className="relative">
+    <div className="relative" data-aos="zoom-in" data-aos-duration="800">
       <Homebg />
       <div className="text-[#353353] flex flex-col h-screen justify-center items-center w-full container relative dark:text-white">
         <img

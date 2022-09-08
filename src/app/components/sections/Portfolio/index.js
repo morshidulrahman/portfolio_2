@@ -47,6 +47,7 @@ function Portfolio() {
       <div className='flex justify-center items-center w-60 mx-auto pt-20' data-aos="zoom-in" data-aos-duration="800">
 
         <a
+          rel="noreferrer"
           target="_blank"
           href="https://github.com/morshidulrahman">
           <Button title='visit my github' />

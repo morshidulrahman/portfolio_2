@@ -8,7 +8,7 @@ function Home() {
   const { name, image, socialIcons, typeWriter } = HomeData;
 
   return (
-    <div className="relative" data-aos="zoom-in" data-aos-duration="800">
+    <div className="relative" data-aos="zoom-in" data-aos-duration="1000">
       <Homebg />
       <div className="text-[#353353] flex flex-col h-screen justify-center items-center w-full container relative dark:text-white">
         <img

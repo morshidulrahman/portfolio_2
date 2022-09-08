@@ -9,7 +9,9 @@ function PortfolioCard({ menu }) {
             target="_blank"
             href={item.link}
             key={index}
-            className="bg-white shadow-md rounded-xl relative overflow-hidden w-[80%] md:w-[31%] category">
+            className="bg-white shadow-md rounded-xl relative overflow-hidden w-[80%] md:w-[31%] category"
+            data-aos="fade-right" data-aos-duration="1200"
+          >
             <div className='w-full h-[30%] overflow-hidden'>
               <img
                 className='object-fit w-full h-[300px]'

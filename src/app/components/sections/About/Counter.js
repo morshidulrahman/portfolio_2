@@ -2,26 +2,26 @@ import React from 'react'
 import { CounterData } from '../../../data/Counter'
 function Counter() {
 
-     const {counter}=CounterData
+  const { counter } = CounterData
   return (
-    <div className='pt-32 flex w-full flex-wrap justify-between gap-10 md:gap-0 '>
+    <div className='pt-32 flex w-full flex-wrap justify-between gap-10 md:gap-0 ' data-aos="fade-up" data-aos-duration="800">
       {
-        counter?.map((item,index)=>(
-            <div 
+        counter?.map((item, index) => (
+          <div
             key={index}
             className='flex gap-8 w-full md:w-[20%] sm:w-[40%]'>
             <p className='text-gray-200 text-4xl'>
-                {item.icon}
+              {item.icon}
             </p>
             <div className='dark:text-white'>
-                <p className='font-bold text-3xl mb-1'>
-                    {item.number}
-                </p>
-                <span className='text-lg'>
-                    {item.title}
-                </span>
+              <p className='font-bold text-3xl mb-1'>
+                {item.number}
+              </p>
+              <span className='text-lg'>
+                {item.title}
+              </span>
             </div>
-        </div>
+          </div>
         ))
       }
     </div>

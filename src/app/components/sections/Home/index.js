@@ -43,7 +43,7 @@ function Home() {
             smooth={true}
             offset={50}
             duration={500}
-            className="text-3xl animate-bounce"
+            className="text-3xl animate-bounce cursor-pointer"
           >
             <CgMouse />
           </Link>

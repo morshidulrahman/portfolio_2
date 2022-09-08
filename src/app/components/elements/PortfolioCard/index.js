@@ -1,12 +1,13 @@
 import React from 'react'
 
-function PortfolioCard({ menu }) {
+function PortfolioCard({ menu, selectedtype }) {
   return (
-    <div className='flex flex-wrap items-center  justify-center md:justify-between w-full gap-10 md:gap-6'>
+    <div className="flex flex-wrap items-center justify-center md:justify-between w-full gap-10 md:gap-6">
       {
         menu.map((item, index) => (
           <a
             target="_blank"
+            rel="noreferrer"
             href={item.link}
             key={index}
             className="bg-white shadow-md rounded-xl relative overflow-hidden w-[80%] md:w-[31%] category"

@@ -7,7 +7,7 @@ function Contact() {
       <section className="container">
         <SectionTitle title="Get in Touch" />
         <div className="mt-16 flex justify-between md:gap-5 md:flex-row flex-col gap-10">
-          <div className="bgimage md:w-1/3 h-52 w-full" data-aos="fade-right" data-aos-duration="1500">
+          <div className="bgimage md:w-1/3 h-52 w-full" data-aos="fade-right" data-aos-duration="1600">
             <h1 className="font-bold text-2xl my-5">
               Let's talk about everything!
             </h1>

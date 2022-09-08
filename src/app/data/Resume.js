@@ -36,7 +36,7 @@ export const RESUME = {
         },
         {
             year: "2013-2009",
-            educationName: "Back-End Developer",
+            educationName: "Mobile Apps Developer",
             description: "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         }
     ]

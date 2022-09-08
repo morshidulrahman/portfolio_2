@@ -9,7 +9,7 @@ function Counter() {
         counter?.map((item, index) => (
           <div
             key={index}
-            className='flex gap-8 w-full md:w-[20%] sm:w-[40%]'>
+            className='flex gap-8 w-full md:w-[21%] sm:w-[40%]'>
             <p className='text-gray-200 text-4xl'>
               {item.icon}
             </p>

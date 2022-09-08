@@ -41,6 +41,7 @@ function Portfolio() {
 
       <PortfolioCard
         menu={menu}
+        selectedtype={selectedtype}
       />
 
       <div className='flex justify-center items-center w-60 mx-auto pt-20' data-aos="zoom-in" data-aos-duration="800">

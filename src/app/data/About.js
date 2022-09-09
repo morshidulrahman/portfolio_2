@@ -2,7 +2,7 @@ export const AboutData = {
     bio: "I am Morshidul Rahman, web developer from Bangladesh, Dhaka. I have rich experience in web site design and building and customization, also I am good at React.",
     btnbio: "download cv",
     title: "About me",
-    image: "/assets/me.jpg",
+    image: "/assets/rsz_3me.jpg",
     Skils: [
         {
             name: "Web Design",

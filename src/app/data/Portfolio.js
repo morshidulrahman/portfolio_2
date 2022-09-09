@@ -5,7 +5,7 @@ export const PORTFOLIO = {
     items: [
         {
 
-            image: "/assets/delivery.png",
+            image: "/assets/rsz_1delivery.jpg",
             title: "Ecommerce website",
             icon: <BsImage />,
             type: "Ecommerce",
@@ -13,7 +13,7 @@ export const PORTFOLIO = {
         },
         {
 
-            image: "/assets/netlify.png",
+            image: "/assets/netlify.jpg",
             title: "Netlflix Website",
             icon: <BsImage />,
             type: "Website",
@@ -21,7 +21,7 @@ export const PORTFOLIO = {
         },
         {
 
-            image: "/assets/unplash.png",
+            image: "/assets/rsz_unplash.jpg",
             title: "Unplash website",
             icon: <BsImage />,
             type: "Website",
@@ -29,7 +29,7 @@ export const PORTFOLIO = {
         },
         {
 
-            image: "/assets/botloader.png",
+            image: "/assets/bootloader.jpg",
             title: "Bootslander website",
             icon: <BsImage />,
             type: "Website",
@@ -37,7 +37,7 @@ export const PORTFOLIO = {
         },
         {
 
-            image: "/assets/musicapp.png",
+            image: "/assets/rsz_1musicapp.jpg",
             title: "Music app Website",
             icon: <BsImage />,
             type: "Mobile App",
@@ -45,7 +45,7 @@ export const PORTFOLIO = {
         },
         {
 
-            image: "/assets/parabot.png",
+            image: "/assets/rsz_parabot.jpg",
             title: "Ecommerce website",
             icon: <BsImage />,
             type: "Ecommerce",

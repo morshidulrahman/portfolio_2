@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header
-      className={`fixed z-50 border-b border-b-[#ddd] py-3 top-0 w-full bg-white dark:border-b-[#787272] dark:!bg-[#353353]`}
+      className={`fixed z-50 border-b border-b-[#ddd] py-3 top-0 w-full bg-white dark:border-b-[#666363] dark:!bg-[#353353]`}
     >
       <div className="container flex  flex-wrap md:flex-nowrap justify-between items-center">
         <Link

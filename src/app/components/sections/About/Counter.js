@@ -4,7 +4,7 @@ function Counter() {
 
   const { counter } = CounterData
   return (
-    <div className='pt-32 flex w-full flex-wrap justify-between gap-10 md:gap-0 ' data-aos="fade-up" data-aos-duration="1200">
+    <div className='pt-32 flex w-full flex-wrap justify-between gap-10 md:gap-0 ' data-aos="fade-up" data-aos-duration="1400">
       {
         counter?.map((item, index) => (
           <div

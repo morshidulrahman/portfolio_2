@@ -11,14 +11,14 @@ function Resume() {
         <SectionTitle title={title} />
       </div>
       <div className='flex flex-wrap gap-4 justify-between w-full'>
-        <div className='bg-white md:w-[48%] w-full rounded-lg shadow-xl dark:bg-bg-dark dark:text-white' data-aos="fade-right" data-aos-duration="1500">
+        <div className='bg-white md:w-[48%] w-full rounded-lg shadow-xl dark:bg-bg-dark dark:text-white' data-aos="fade-right" data-aos-duration="1200">
           {
             education.map((item, index) => (
               <ResumeCard key={index} {...item} icon={icon} />
             ))
           }
         </div>
-        <div className='bg-white md:w-[48%] w-full rounded-lg shadow-xl dark:bg-bg-dark dark:text-white' data-aos="fade-right" data-aos-duration="1000">
+        <div className='bg-white md:w-[48%] w-full rounded-lg shadow-xl dark:bg-bg-dark dark:text-white' data-aos="fade-left" data-aos-duration="1200">
           {
             experince.map((item, index) => (
               <ResumeCard key={index} {...item} icon={icons} />

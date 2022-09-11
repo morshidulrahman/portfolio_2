@@ -66,7 +66,7 @@ function Header() {
 
 
       <div
-        className="absolute top-8 right-24 md:top-7"
+        className="absolute top-8 right-16 md:top-7"
         onClick={() => setTheme(nextTheme)}
       >
         {nextTheme === "dark" ? <BsMoonStarsFill /> : <BsFillSunFill />}

@@ -24,7 +24,7 @@ export const HomeData = {
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.instagram.com/morshidulbabu/'
+            link: 'https://www.linkedin.com/in/morshidul-rahman-03b57620a/'
         }
     ]
 }
